@@ -1,25 +1,16 @@
-# sys6018-competition-house-prices
-Kaggle - House Prices: Advanced Regression Techniques
+# Kaggle - House Prices: Advanced Regression Techniques
 
-# Team Mates -
-* Charu Rawat (cr4zy) - Data  Cleaning, Exploration, and Parametric Modeling
-* Kanika Dawar (kd2hr) - Normalization and Non Parametric Modeling
-* Sri Vaishnavi V (sv2fr) -  Normalization and Non Parametric Modeling - GitHub Manager
+This analysis is part of an assignment for the SYS 6018 Data Mining Course and involved participating in the Kaggle competition (https://www.kaggle.com/c/house-prices-advanced-regression-techniques) . I did this analysis with 2 other students in class and we were graded a A+ (96/100) for our submission.
 
-Collective discussion on selection of appropriate statistical methods and variable selection
-
-# Description of files
+## Description of files
 
 ## train.csv
-
 * This is the given training file in the Kaggle competition
 
 ## test.csv
-
 * This is the given test file in the Kaggle competition
 
-## c-11_HousePriceCompetition.R
-
+## code.R
 * It contains the data loading, cleaning (filling legit NAs), and imputation of missing data
 * It also contains exploratory data analysis and removal of outliers
 * To eliminate bias, we normalized all the variables
@@ -29,17 +20,10 @@ Collective discussion on selection of appropriate statistical methods and variab
 * Non-Parametric modeling (user defined KNN) for Sale Price Prediction using the House Price Dataset
 
 ## non-param_soln.csv
-
 * It contains the Sale Price Predictions for all the IDs in test.csv (using all variables as regressors) under the non-parametric method
 
 ## param_soln.csv
-
 * It contains the Sale Price Predictions for all the IDs in test.csv (using all variables as regressors) under the parametric method
-
-## Folder knn_scratch_all
-
-* It contains user-defined KNN which takes all probabilities less than largest Kth value
-* It also contains sample training and test data files after processing and variable selection
 
 ## OUTPUT
 
