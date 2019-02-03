@@ -2,6 +2,11 @@
 
 This analysis is part of an assignment for the SYS 6018 Data Mining Course and involved participating in the Kaggle competition (https://www.kaggle.com/c/house-prices-advanced-regression-techniques) . I did this analysis with 2 other students in class and we were graded a A+ (96/100) for our submission.
 
+#### Objective 
+The Ames Housing dataset was compiled by Dean De Cock for use in data science education. It's an incredible alternative for data scientists looking for a modernized and expanded version of the often cited Boston Housing dataset. 
+This competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
+With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, the goal of this analysis is to predict the final price of each home.
+
 ## Description of files
 
 ## train.csv
